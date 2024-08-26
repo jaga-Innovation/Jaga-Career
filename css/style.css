@@ -103,7 +103,10 @@ span{
 .home-img img{
     width: 35vw;
     animation: floatImage 4s ease-in-out infinite;
+
 }
+
+
 
 @keyframes floatImage{
     0%{
@@ -470,6 +473,11 @@ span{
     .home-img img{
         width: 70vw;
         margin-top: 4rem;
+        
+     
+        
+        
+        
     }
 
     .about{
@@ -479,6 +487,7 @@ span{
     .about img{
         width: 70vw;
         margin-top: 4rem;
+        
     }
 
     .services h2, .portfolio h2{
@@ -509,6 +518,7 @@ span{
 @media (max-width: 365px){
     .home-img img{
         width: 90vw;
+        
     }
 
     .footer{
@@ -519,4 +529,14 @@ span{
         text-align: center;
         margin-top: 2rem;
     }
+}
+/* 
+.home-img {
+    padding: 5rem; 
+} */
+
+.home-img img {
+   
+    animation: floatImage 4s ease-in-out infinite;
+    border-radius: 1rem; /* Add border radius to the image */
 }
