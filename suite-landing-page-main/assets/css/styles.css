@@ -152,7 +152,6 @@ img {
 /* buttons  */
 .btn {
   --br-custom: 6px;
-
   font-size: var(--fs-btn);
   font-weight: var(--fw-700);
   background: var(--bg, transparent);
