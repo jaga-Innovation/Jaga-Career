@@ -28,7 +28,7 @@ ul {  list-style: none; }
 
 /* Main Content */
 .illustration-container {
-  background-image: url('images/bg-curve-desktop.svg');
+  background-image: url('../images/bg-curve-desktop.svg');
   background-repeat: no-repeat;
   background-position: center top;
   height: 114px;
