@@ -1,6 +1,4 @@
 :root {
- 
-
   /* ## neutral color  */
   --very-dark-desaturated-blue: hsl(219, 43%, 16%);
   --very-dark-grayish-blue: hsl(218, 20%, 36%);
@@ -91,7 +89,11 @@ ul[class] {
   padding: 0;
 }
 
-h1,h2,h3,h4,p {
+h1,
+h2,
+h3,
+h4,
+p {
   margin: 0;
 }
 
