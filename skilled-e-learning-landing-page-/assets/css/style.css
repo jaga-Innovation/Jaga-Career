@@ -99,7 +99,7 @@ body {
 }
 
 .intro-image {
-  background-image: url("./images/image-hero-mobile.png");
+  background-image: url("../images/image-hero-mobile.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 435px 409px;
@@ -189,7 +189,7 @@ body {
   border-radius: 50px;
   width: 8rem;
   height: 3rem;
-  line-height: 3rem; /* vertically center the text */
+  line-height: 3rem; 
   font-size: 16px;
   font-weight: 700;
   text-decoration: none;
@@ -213,7 +213,7 @@ body {
     right: 0;
     width: 50%;
     height: 70vh;
-    background-image: url(./images/image-hero-tablet.png);
+    background-image: url(../images/image-hero-tablet.png);
     background-repeat: no-repeat;
     background-position: bottom left;
   }
@@ -273,7 +273,7 @@ body {
 @media (min-width: 992px) {
   .hero-image {
     height: 80vh;
-    background-image: url(./images/image-hero-desktop.png);
+    background-image: url(../images/image-hero-desktop.png);
     background-position: -18px -180px;
     background-size: auto 120%;
     z-index: -99;
