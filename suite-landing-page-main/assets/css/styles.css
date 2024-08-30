@@ -1,6 +1,5 @@
 :root {
-  /* 
-  01 | colors  */
+ 
 
   /* ## neutral color  */
   --very-dark-desaturated-blue: hsl(219, 43%, 16%);
@@ -48,7 +47,7 @@
   --fw-700: 700;
 
   /* ## font family  */
-  --ff-primary: 'Epilogue', sans-serif;
+  --ff-primary: "Epilogue", sans-serif;
 
   --br: var(--br-custom, 1rem);
 }
@@ -76,8 +75,8 @@
 
 html {
   box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
-    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 100%;
 }
 
@@ -244,10 +243,10 @@ header {
 }
 
 .hero__content::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
-  background-image: url('../images/pattern-curved-line-1.svg');
+  background-image: url("../images/pattern-curved-line-1.svg");
   background-repeat: no-repeat;
   background-size: 9.5rem auto;
   background-position: top 13% right 30%;
@@ -287,10 +286,10 @@ header {
 }
 
 .testimonial::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
-  background-image: url('../images/pattern-blur.svg');
+  background-image: url("../images/pattern-blur.svg");
   background-repeat: no-repeat;
   background-position: center top -5%;
 }
@@ -322,7 +321,6 @@ header {
 }
 
 /* footer  */
-
 footer {
   background-color: var(--light-grayish-orange);
   text-align: center;
